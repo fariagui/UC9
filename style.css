@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
 /*CSS RESET*/
 *{
     margin: 0;
@@ -9,6 +12,7 @@ header{
     background-color: black;
     height: 100px;
     padding-top: 20px;
+  
 }
 .container-grid{
     width: 1200px;
@@ -24,10 +28,29 @@ header{
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    
     }
     .menu{
-        width: 700px;
+        width: 600px;
         display: flex;
         justify-content: space-between;
         
+}
+.banner{
+height: 180px;
+background-image: url(img/controle\ 1.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.jogos{
+    background-color: black;
+    height: 180px;
+ }
+.posicionamento-jogos{
+    height: 100%;
+   }
+.container{
+    max-width: 1200px;
 }
